@@ -28,3 +28,16 @@ The design specifications for the MechaCar suspension coils dictate that the var
 * Varience across the lots meet the design specifications for two of the three lots. Lot 3 failed with varience at 170.2861224.   
 
 ![Lot_Summary](https://raw.githubusercontent.com/asanchez116/MechaCar_Statistical_Analysis/main/Resources/lot_summary_screenshot.png)
+
+## T-Tests on Suspension Coils
+
+
+![All_Lots_ttest](https://raw.githubusercontent.com/asanchez116/MechaCar_Statistical_Analysis/main/Resources/All_Lots_ttest.png)
+
+
+
+![Lot_1_ttest](https://raw.githubusercontent.com/asanchez116/MechaCar_Statistical_Analysis/main/Resources/Lot_1_ttest.png)
+
+![Lot_2_ttest](https://raw.githubusercontent.com/asanchez116/MechaCar_Statistical_Analysis/main/Resources/lot_2_ttest.png)
+
+![Lot_3_ttest](https://raw.githubusercontent.com/asanchez116/MechaCar_Statistical_Analysis/main/Resources/Lot_3_ttest.png)
