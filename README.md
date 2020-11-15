@@ -24,7 +24,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 1. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 * In total, the varience does not exceed 100 pounds per square inch. total varience for PSI = 62.29356
 
-![Total_Summary](https://cldup.com/dTxpPi9lDf.thumb.png)
+![Total_Summary](https://raw.githubusercontent.com/asanchez116/MechaCar_Statistical_Analysis/main/Resources/total_summary_screenshot.png)
 * Varience across the lots meet the design specifications for two of the three lots. Lot 3 failed with varience at 170.2861224.   
 
-![Lot_Summary](https://cldup.com/dTxpPi9lDf.thumb.png)
+![Lot_Summary](https://raw.githubusercontent.com/asanchez116/MechaCar_Statistical_Analysis/main/Resources/lot_summary_screenshot.png)
