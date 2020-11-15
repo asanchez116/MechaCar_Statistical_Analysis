@@ -31,13 +31,20 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 ## T-Tests on Suspension Coils
 
+* All Lots were not significantly different but were approaching significance with p value = 0.06028. 
+
+
 
 ![All_Lots_ttest](https://raw.githubusercontent.com/asanchez116/MechaCar_Statistical_Analysis/main/Resources/All_Lots_ttest.png)
 
-
+* Results from Lot 1 show a non significant differnece between the mean PSI for lot 1 and the population mean PSI = 1500 with a pvalue = 1
 
 ![Lot_1_ttest](https://raw.githubusercontent.com/asanchez116/MechaCar_Statistical_Analysis/main/Resources/Lot_1_ttest.png)
 
+* Results for lot 2 show a non significant difference between the mean PSI for lot_2 and the population mean PSI = 1500 with a pvalue = 0.6072
+
 ![Lot_2_ttest](https://raw.githubusercontent.com/asanchez116/MechaCar_Statistical_Analysis/main/Resources/lot_2_ttest.png)
+
+* Results for Lot_3 show a significant difference between the mean PSI for Lot_3 and the population mean PSI = 1500 with a pvalue = 0.04168, sample mean = 1496.14 and confidence interval = 1492.431 1499.849
 
 ![Lot_3_ttest](https://raw.githubusercontent.com/asanchez116/MechaCar_Statistical_Analysis/main/Resources/Lot_3_ttest.png)

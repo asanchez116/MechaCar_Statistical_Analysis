@@ -27,19 +27,19 @@ lot_summary
 
 
 
-all_Lots <- t.test(dataframe2$PSI, mu=mean(dataframe2$PSI))
+all_Lots <- t.test(dataframe2$PSI, mu=1500)
 all_Lots
 
 #subset dataframe
 
 lot_1 <- subset(dataframe2, Manufacturing_Lot == 'Lot1')
 lot_2 <- subset(dataframe2, Manufacturing_Lot=='Lot2')
-lot_3 <- subset(dataframe2, Maufacturing_lot = 'Lot3')
+lot_3 <- subset(dataframe2, Manufacturing_Lot == 'Lot3')
 
 
-Lot_1_ttest <- t.test(lot_1$PSI, mu=mean(dataframe2$PSI))
-Lot_2_ttest<- t.test(lot_2$PSI, mu=mean(dataframe2$PSI))
-Lot_3_ttest<- t.test(lot_3$PSI, mu=mean(dataframe2$PSI))
+Lot_1_ttest <- t.test(lot_1$PSI, mu=1500)
+Lot_2_ttest<- t.test(lot_2$PSI, mu=1500)
+Lot_3_ttest<- t.test(lot_3$PSI, mu=1500)
 
 
 Lot_1_ttest
