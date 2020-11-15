@@ -18,7 +18,9 @@ total_summary<- summarize(dataframe2, mean_PSI = mean(PSI),
                           median_PSI = median(PSI), varience_PSI = var(PSI), 
                           sd_PSI <- sd(PSI), groups='keep')
 
+total_summary
 
 lot_summary <- dataframe2 %>%  group_by(Manufacturing_Lot) %>%  
   summarize(mean_PSI = mean(PSI), median_PSI = median(PSI), var_PSI = var(PSI), sd_PSI = sd(PSI), .groups='keep')
-                                                                        
+
+lot_summary                                                                        
