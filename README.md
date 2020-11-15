@@ -48,3 +48,25 @@ The design specifications for the MechaCar suspension coils dictate that the var
 * Results for Lot_3 show a significant difference between the mean PSI for Lot_3 and the population mean PSI = 1500 with a pvalue = 0.04168, sample mean = 1496.14 and confidence interval = 1492.431 1499.849
 
 ![Lot_3_ttest](https://raw.githubusercontent.com/asanchez116/MechaCar_Statistical_Analysis/main/Resources/Lot_3_ttest.png)
+
+## Study Design: MechaCar vs Competition
+statistical study comparing MechaCar to competition on: 
+annual sales, cost of ownership including repair costs, length of ownership
+
+1. What metric or metrics are you going to test?
+
+    * to compare annual sales, compare:
+        1. Quantity of cars for MechaCar compared to competition
+        2. total sales in 12 months compared to competition
+    * to compare cost of ownership: 
+        1. average repair costs compared to competition
+        2. length of ownership compred to competition 
+2. What is the null hypothesis or alternative hypothesis?
+    * Null hpothesis for annual sales is: 
+        1. there is no statistically significant difference between MechaCar and competitors when comparing the average quantity of cars sold
+        2. There is no statisticlaly significant difference between MdechaCar and competitors when comparing the average total sales in 12 months   
+3. What statistical test would you use to test the hypothesis? and why?
+        1. since the analysis require comparing means between two or more groups, an ANOVA would be the best statistic to use since it would allow for comparing multipple groups at once without compounding the error that would result if we were to run multiple ttests to compare MechaCar and multiple competitors. 
+4. What data is needed to run the statistical test?
+        1. categorical data for the labels of car manufacturers (independent variables)
+        2. continueous for the dependent variables   
